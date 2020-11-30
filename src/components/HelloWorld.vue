@@ -1,6 +1,8 @@
 <template>
   <div class="hello">
-    <h1>{{msg}}</h1>
+    <div>
+      <h1>{{msg}}</h1>
+    </div>
   </div>
 </template>
 
@@ -17,5 +19,7 @@ export default {
 <style scoped>
 h1 {
   margin: 40px 0 0;
+  border: dotted aqua;
+  color: aqua;
 }
 </style>
